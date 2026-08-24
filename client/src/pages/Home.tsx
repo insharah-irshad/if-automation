@@ -44,7 +44,7 @@ const services = [
     no: "01",
     title: "AI workflow design",
     icon: "workflow",
-    body: "Repeatable decisions, handled automatically — no chaos, no guesswork.",
+    body: "Repeatable decisions, handled automatically, no chaos, no guesswork.",
     tags: ["Discovery", "Architecture"],
   },
   {
@@ -65,7 +65,7 @@ const services = [
     no: "04",
     title: "Custom automations",
     icon: "custom",
-    body: "We connect the dots between your tools — so nothing falls through the cracks.",
+    body: "We connect the dots between your tools, so nothing falls through the cracks.",
     tags: ["APIs", "Webhooks"],
   },
 ];
@@ -74,12 +74,12 @@ const aiAutomationServices = [
   [
     "01",
     "AI Agents",
-    "Custom-built agents that think, respond, and act like part of your team.",
+    "Custom built agents that think, respond, and act like part of your team.",
   ],
   [
     "02",
     "Instagram DM Automation",
-    "Every comment and DM answered — instantly, in your brand's voice.",
+    "Every comment and DM answered instantly, in your brand's voice.",
   ],
   [
     "03",
@@ -99,7 +99,7 @@ const aiAutomationServices = [
   [
     "06",
     "Appointment & Booking Automation",
-    "Calendars that fill themselves — no back-and-forth required.",
+    "Calendars that fill themselves no back-and-forth required.",
   ],
   [
     "07",
@@ -109,7 +109,7 @@ const aiAutomationServices = [
   [
     "08",
     "CRM & Google Sheets Automation",
-    "Your data updates itself — accurate, synced, and always current.",
+    "Your data updates itself accurate, synced, and always current.",
   ],
   [
     "09",
@@ -124,7 +124,7 @@ const aiAutomationServices = [
   [
     "11",
     "AI-Powered Reporting",
-    "Real-time insights, delivered automatically — no more manual reports.",
+    "Real-time insights, delivered automatically, no more manual reports.",
   ],
 ];
 
@@ -132,7 +132,7 @@ const websiteServices = [
   [
     "01",
     "Professional Website Development",
-    "Fast, modern websites built on solid structure — not just good looks.",
+    "Fast, modern websites built on solid structure, not just good looks.",
   ],
   [
     "02",
@@ -155,7 +155,7 @@ const approachItems = [
   {
     no: "01",
     title: "No generic templates",
-    body: "Every system is built around how your business actually works — not a one-size-fits-all package.",
+    body: "Every system is built around how your business actually works, not a one-size-fits-all package.",
     detail:
       "We start with your real workflow, then design only the automations that remove friction from it.",
   },
@@ -169,7 +169,7 @@ const approachItems = [
   {
     no: "03",
     title: "We stay after launch",
-    body: "Ongoing support and fine-tuning — not a one-time handoff you’re left to figure out alone.",
+    body: "Ongoing support and fine-tuning, not a one-time handoff you’re left to figure out alone.",
     detail:
       "We monitor the handoffs, refine the edge cases, and help your team keep the system working as it grows.",
   },
@@ -645,7 +645,7 @@ export default function Home() {
                   aria-hidden="true"
                 />
                 <p>
-                  A system built around how you actually work — not a generic
+                  A system built around how you actually work, not a generic
                   template.
                 </p>
               </article>
@@ -663,7 +663,7 @@ export default function Home() {
                   aria-hidden="true"
                 />
                 <p>
-                  Live, tested, and connected — usually faster than you&apos;d
+                  Live, tested, and connected, usually faster than you&apos;d
                   expect.
                 </p>
               </article>

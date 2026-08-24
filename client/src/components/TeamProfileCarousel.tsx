@@ -21,13 +21,12 @@ export default function TeamProfileCarousel({ role }: TeamProfileCarouselProps) 
   const isManager = role === "manager";
   const ProfileIcon = isManager ? UserRound : FemaleProfileIcon;
   const label = isManager ? "Muhammad Faizan manager profile" : "Insharah Irshad developer profile";
-  const marker = isManager ? "M" : "F";
 
   return (
     <div className={`team-profile-visual team-profile-${role}`} aria-label={label}>
       <div className="team-profile-main" aria-hidden="true">
         <ProfileIcon size={88} strokeWidth={1.15} />
-        <span className="team-profile-main-mark">{marker}</span>
+        
       </div>
     </div>
   );
