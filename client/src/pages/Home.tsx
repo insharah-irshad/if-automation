@@ -1200,8 +1200,7 @@ export default function Home() {
             <div className="footer-legal">
               <span>© 2026 IF WEBWORKS. ALL RIGHTS RESERVED.</span>
               <div>
-                <a href="#top">PRIVACY POLICY</a>
-                <a href="#top">TERMS OF SERVICE</a>
+                
               </div>
             </div>
           </footer>
